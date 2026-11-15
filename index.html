@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sostenibilità | Gruppo Rigamonti</title>
+    <meta
+      name="description"
+      content="Il gusto di fare bene, oggi e domani. Percorso ESG, certificazioni e Report di Sostenibilità 2025 del Gruppo Rigamonti."
+    />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="site-header__brand" href="#top" aria-label="Gruppo Rigamonti — inizio pagina">
+          <span class="logo-box logo-box--rigamonti">
+            <img src="/images/loghi/LOGO_Rigamonti.png" alt="Rigamonti" width="180" height="50" />
+          </span>
+        </a>
+        <nav class="site-header__brands" aria-label="Marchi del gruppo">
+          <span class="logo-box">
+            <img src="/images/loghi/LOGO_Kings.png" alt="King's" width="88" height="46" />
+          </span>
+          <span class="site-header__sep" aria-hidden="true"></span>
+          <span class="logo-box">
+            <img src="/images/loghi/LOGO_Principe.png" alt="Principe" width="72" height="46" />
+          </span>
+          <span class="site-header__sep" aria-hidden="true"></span>
+          <span class="logo-box logo-box--siamoci">
+            <img src="/images/loghi/LOGO_Siamoci.png" alt="Sia.Mo.ci" width="96" height="34" />
+          </span>
+        </nav>
+        <button
+          class="site-header__menu"
+          type="button"
+          aria-label="Menu di navigazione (prossimamente)"
+          title="Menu — in arrivo"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main id="contenuto">
+      <section class="hero" id="top" aria-label="Introduzione">
+        <div class="hero__media">
+          <img
+            src="/images/slider/rebaioli-01.jpg"
+            alt="Cime innevate al tramonto sulle Alpi"
+            width="2048"
+            height="1534"
+            fetchpriority="high"
+          />
+          <div class="hero__veil" aria-hidden="true"></div>
+        </div>
+        <div class="hero__content">
+          <h1>Il gusto di fare bene, oggi e domani.</h1>
+        </div>
+      </section>
+
+      <section class="intro" aria-labelledby="intro-text">
+        <p id="intro-text">
+          Siamo un Gruppo fatto di stabilimenti, marchi e prodotti diversi, ma uniti da valori comuni:
+          la passione per le proprie radici, la cultura del saper fare, l’attenzione alla qualità e il
+          forte legame con i territori in cui operiamo.
+        </p>
+      </section>
+
+      <section class="pillars" aria-label="Tre pilastri">
+        <div class="pillars__grid">
+          <article class="pillar">
+            <h2>Le radici del valore</h2>
+            <div class="pillar__copy">
+              <p>
+                Il <strong>Gruppo Rigamonti</strong> costruisce il proprio percorso di crescita a
+                partire da un’identità solida, radicata nella tradizione della salumeria italiana e
+                orientata all’innovazione.
+              </p>
+              <p>
+                La storia aziendale, l’assetto proprietario, il modello di creazione di valore e il
+                legame con i territori raccontano un Gruppo che evolve nel tempo, mantenendo al centro
+                qualità, competenze e responsabilità.
+              </p>
+            </div>
+            <div class="pillar__metric" data-slider-mount="business"></div>
+          </article>
+          <article class="pillar">
+            <h2>Una strategia per crescere in modo responsabile</h2>
+            <div class="pillar__copy">
+              <p>
+                La strategia <strong>ESG</strong> del Gruppo Rigamonti guida l’integrazione di un
+                comportamento responsabile nelle scelte aziendali, nei processi e nelle relazioni con
+                gli stakeholder.
+              </p>
+              <p>
+                Attraverso l’identificazione delle priorità, il presidio dei rischi e delle opportunità
+                e la definizione di obiettivi condivisi, il Gruppo rafforza il proprio impegno verso un
+                modello di sviluppo capace di generare valore nel lungo periodo.
+              </p>
+            </div>
+            <div class="pillar__metric" data-slider-mount="people"></div>
+          </article>
+          <article class="pillar">
+            <h2>La sostenibilità che prende forma</h2>
+            <div class="pillar__copy">
+              <p>
+                Le attività ESG rappresentano la traduzione concreta degli impegni del
+                <strong>Gruppo Rigamonti</strong>.
+              </p>
+              <p>
+                Dalla <strong>tutela dell’ambiente</strong> alla
+                <strong>valorizzazione delle persone</strong>, dalla
+                <strong>qualità dei prodotti</strong> alla
+                <strong>responsabilità lungo la filiera</strong>, il Gruppo sviluppa iniziative e
+                progetti orientati a migliorare le proprie performance e a contribuire positivamente
+                ai territori e alle comunità in cui opera.
+              </p>
+            </div>
+            <div class="pillar__metric" data-slider-mount="planet"></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="report" aria-labelledby="report-title">
+        <div class="report__inner">
+          <div class="report__form-col">
+            <h2 id="report-title">Report di Sostenibilità 2025</h2>
+            <p class="report__lead">
+              Inserisci il tuo nome e la tua email per ricevere un messaggio con il link per
+              scaricare una copia del documento in formato PDF!
+            </p>
+            <form class="report-form" id="report-form" novalidate>
+              <div class="report-form__row">
+                <label class="sr-only" for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" placeholder="Nome*" required autocomplete="given-name" />
+                <label class="sr-only" for="cognome">Cognome</label>
+                <input
+                  id="cognome"
+                  name="cognome"
+                  type="text"
+                  placeholder="Cognome*"
+                  required
+                  autocomplete="family-name"
+                />
+              </div>
+              <label class="sr-only" for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="Email*"
+                required
+                autocomplete="email"
+              />
+              <label class="report-form__privacy">
+                <input type="checkbox" name="privacy" required />
+                <span>
+                  Ai sensi e per gli effetti dell’Art. 13 GDPR – Regolamento Generale sulla Protezione
+                  dei Dati (UE 2016/679) dichiaro di aver preso visione della
+                  <a href="#privacy">Privacy Policy</a> per il trattamento dei dati personali.*
+                </span>
+              </label>
+              <p class="report-form__note">* I campi contrassegnati con un asterisco sono obbligatori.</p>
+              <button type="submit">Ricevi il nostro Report di Sostenibilità</button>
+              <p class="report-form__feedback" id="report-feedback" role="status" aria-live="polite" hidden></p>
+            </form>
+            <p class="report__perimeter">
+              Il perimetro di rendicontazione comprende Rigamonti Salumificio S.p.A., King’s S.p.A.,
+              Principe di San Daniele S.p.A. e Sia.Mo.Ci S.r.l., coerentemente con il perimetro di
+              Gruppo rappresentato nel documento.
+            </p>
+          </div>
+          <div class="report__visual">
+            <img
+              src="/images/report-mockup.png"
+              alt="Anteprima del Report di Sostenibilità 2025 su tablet e pagine stampate"
+              width="1267"
+              height="1247"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="certs" aria-labelledby="certs-title">
+        <div class="certs__inner">
+          <h2 id="certs-title">Certificazioni Gruppo Rigamonti</h2>
+          <p class="certs__lead">
+            Le certificazioni riconosciute a livello nazionale e internazionale confermano l’impegno
+            del Gruppo Rigamonti nel garantire qualità, sicurezza alimentare, tracciabilità e tutela
+            ambientale lungo tutta la filiera produttiva.
+          </p>
+          <div class="certs__layout">
+            <div class="certs__brands" role="tablist" aria-label="Seleziona un brand">
+              <button
+                type="button"
+                class="certs__brand is-active"
+                role="tab"
+                aria-selected="true"
+                data-brand="RIGAMONTI"
+              >
+                <img
+                  class="logo-color"
+                  src="/images/loghi/RIGAMONTI.png"
+                  alt=""
+                  width="160"
+                  height="44"
+                />
+                <img
+                  class="logo-gray"
+                  src="/images/loghi/LOGO_Rigamonti_grigio.png"
+                  alt=""
+                  width="160"
+                  height="44"
+                />
+                <span class="sr-only">Rigamonti</span>
+              </button>
+              <button type="button" class="certs__brand" role="tab" aria-selected="false" data-brand="PRINCIPE">
+                <img class="logo-color" src="/images/loghi/PRINCIPE.png" alt="" width="110" height="72" />
+                <img
+                  class="logo-gray"
+                  src="/images/loghi/LOGO_principe_grigio.png"
+                  alt=""
+                  width="110"
+                  height="72"
+                />
+                <span class="sr-only">Principe</span>
+              </button>
+              <button type="button" class="certs__brand" role="tab" aria-selected="false" data-brand="KINGS">
+                <img class="logo-color" src="/images/loghi/KINGS.png" alt="" width="130" height="68" />
+                <img
+                  class="logo-gray"
+                  src="/images/loghi/LOGO_Kings_grigio.png"
+                  alt=""
+                  width="130"
+                  height="68"
+                />
+                <span class="sr-only">King’s</span>
+              </button>
+              <button type="button" class="certs__brand" role="tab" aria-selected="false" data-brand="SIA.MO.CI">
+                <img class="logo-color" src="/images/loghi/SIAMOCI.png" alt="" width="140" height="42" />
+                <img class="logo-gray" src="/images/loghi/SIAMOCI.png" alt="" width="140" height="42" />
+                <span class="sr-only">Sia.Mo.ci</span>
+              </button>
+            </div>
+            <div
+              class="certs__grid"
+              id="certs-grid"
+              role="tabpanel"
+              aria-live="polite"
+              aria-label="Certificazioni del brand selezionato"
+            ></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="compliance" aria-label="Etica e sistema di gestione">
+        <div class="compliance__inner">
+          <div class="compliance__col">
+            <h2>Etica e Compliance</h2>
+            <div class="compliance__copy">
+              <p>
+                Le Società del nostro gruppo adottano il
+                <strong>Modello di Organizzazione, Gestione e Controllo previsto dal D.Lgs. 231/2001</strong>.
+                Tale modello rappresenta uno strumento fondamentale per garantire un comportamento
+                aziendale corretto, trasparente e conforme alla normativa vigente.
+              </p>
+              <p>
+                Le principali caratteristiche del <strong>Modello 231</strong> sono:
+              </p>
+              <ul>
+                <li>
+                  Identificazione delle attività sensibili potenzialmente esposte al rischio di reato;
+                </li>
+                <li>
+                  Definizione di procedure e controlli interni volti a prevenire comportamenti non
+                  conformi;
+                </li>
+                <li>
+                  Istituzione di un Organismo di Vigilanza (OdV) autonomo e indipendente, incaricato
+                  di monitorare l’efficace applicazione del Modello;
+                </li>
+                <li>
+                  Attuazione di un sistema disciplinare in caso di violazioni del Modello o delle
+                  procedure aziendali.
+                </li>
+              </ul>
+              <p>
+                Il nostro gruppo adotta inoltre un <strong>Codice Etico</strong>, che definisce i
+                principi e i valori che guidano quotidianamente il nostro operato: integrità,
+                legalità, sicurezza alimentare, trasparenza, tutela delle persone e rispetto
+                dell’ambiente.
+              </p>
+              <p>
+                L’adozione del Modello 231 e del Codice Etico conferma l’impegno dell’azienda nel
+                garantire ai propri clienti affidabilità, qualità e responsabilità lungo tutta la
+                filiera produttiva.
+              </p>
+            </div>
+            <div class="download-list">
+              <a class="download-link" href="#" aria-disabled="true" data-doc="codice-etico-interno">
+                <img src="/images/icone/DOWNLOAD.png" alt="" width="18" height="18" />
+                Codice Etico Interno
+              </a>
+              <a class="download-link" href="#" aria-disabled="true" data-doc="codice-etico-partner">
+                <img src="/images/icone/DOWNLOAD.png" alt="" width="18" height="18" />
+                Codice Etico dei Partner Commerciali
+              </a>
+            </div>
+            <p class="compliance__contact">
+              Per eventuali esigenze di chiarimento o approfondimento, il nostro personale è sempre a
+              disposizione all’indirizzo:
+              <a href="mailto:231@rigamontisalumificio.it"
+                ><strong>231@rigamontisalumificio.it</strong></a
+              >
+            </p>
+          </div>
+
+          <div class="compliance__divider" aria-hidden="true"></div>
+
+          <div class="compliance__col">
+            <h2>Sistema di gestione e ambiente</h2>
+            <figure class="compliance__photo">
+              <img
+                src="/images/hero-2.jpg"
+                alt="Paesaggio alpino con sentiero nella valle"
+                width="2048"
+                height="1534"
+                loading="lazy"
+              />
+            </figure>
+            <div class="compliance__copy">
+              <p>
+                In questa sezione è possibile consultare e scaricare la
+                <strong>Politica HSEQ</strong> e il
+                <strong>certificato di registrazione EMAS</strong>, documenti che esprimono il
+                nostro impegno per una gestione aziendale responsabile, sicura e sostenibile.
+              </p>
+            </div>
+            <div class="download-list">
+              <a class="download-link" href="#" aria-disabled="true" data-doc="politica-hseq">
+                <img src="/images/icone/DOWNLOAD.png" alt="" width="18" height="18" />
+                Politica HSEQ
+              </a>
+              <a class="download-link" href="#" aria-disabled="true" data-doc="registrazione-emas">
+                <img src="/images/icone/DOWNLOAD.png" alt="" width="18" height="18" />
+                Registrazione EMAS
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__logos" aria-label="Marchi del Gruppo Rigamonti">
+        <span class="footer-logo-box">
+          <img src="/images/loghi/LOGO_Rigamonti_grigio.png" alt="Rigamonti" height="32" />
+        </span>
+        <span class="site-footer__sep" aria-hidden="true"></span>
+        <span class="footer-logo-box">
+          <img src="/images/loghi/LOGO_Kings_grigio.png" alt="King's" height="32" />
+        </span>
+        <span class="site-footer__sep" aria-hidden="true"></span>
+        <span class="footer-logo-box">
+          <img src="/images/loghi/LOGO_principe_grigio.png" alt="Principe" height="32" />
+        </span>
+        <span class="site-footer__sep" aria-hidden="true"></span>
+        <span class="footer-logo-box">
+          <img src="/images/loghi/SIAMOCI.png" alt="Sia.Mo.ci" height="32" />
+        </span>
+      </div>
+      <p class="site-footer__legal">
+        Rigamonti Salumificio S.P.A. | Sede legale e amministrativa: Via Stelvio 973, 23020 Montagna
+        in Valtellina (SO) | T
+        <a href="tel:+390342535111">+39 0342 535 111</a> | C.F. e P.I. 00079510145
+      </p>
+      <p class="site-footer__policies" id="privacy">
+        <a href="#privacy">Privacy Policy</a>
+        <span aria-hidden="true">|</span>
+        <a href="#privacy">Cookie Policy</a>
+        <span aria-hidden="true">|</span>
+        <a href="#privacy">Termini e condizioni</a>
+      </p>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
